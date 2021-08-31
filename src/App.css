@@ -1,38 +1,238 @@
-.App {
+
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+
+body{
+  color: #333;
+  font-family: 'lato';
+}
+
+.D{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.left,.right{
+  height:100vh;
+  position: relative;
+}
+
+/* Left  */
+.left{
+  border-right: 1px solid #eee;
+}
+
+.Main-Tile{
+  padding: 10px 0px;
+}
+.Title{
+  font-size: 30px;
+  color: orange;
+}
+.Title-2{
+  font-size: 30px;
+  color: darkblue;
+}
+
+.Menu{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  padding: 15px 0px;
+  margin-left: 10px;
+
+}
+.link{
+  text-decoration: none;
+  
+}
+
+
+.icon{
+  justify-self: center;
+  align-self: center;
+}
+
+.title{
+  font-size: 16px;
+}
+.lo{
+  position: absolute;
+ width: 100%;
+ bottom: 20px; 
+}
+
+/* Right  */
+ 
+.right{
+  position: relative;
+}
+.H{
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr 1fr ;
+  padding: 20px 0px;
+  border-bottom: 1px solid #eee;
+  align-items: center;
+}
+
+.h2{
+  font-size: 25px;
+  font-weight: 400;
+  padding-left: 10px;
+  color: darkblue;
+}
+.h2 > span{
+  font-weight: 700;
+}
+.h3{
+  background-color:#ede7f6;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0px 10px;
+  padding: 10px 0px;
+  color: darkblue;
+}
+.h4{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.h4 > span {
+  font-weight: 700;
+}
+.h5{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.SH{
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 20px 0px;
 }
 
-.App-link {
-  color: #61dafb;
+.sh1{
+  font-size: 30px;
+  font-weight: 600;
+  padding-left: 10px;
+}
+.sh2{
+  justify-self: end;
+  margin-right: 30px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  background-color: #ede7f6;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sh3{
+  text-align: center;
+  border: 1px solid darkblue;
+  padding: 5px 0px;
+  margin: 0px 10px;
+  border-radius: 10px;
+  color: darkblue;
+  font-weight: 500;
+  font-size: 16px;
 }
+.T{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  padding: 15px 0px;
+
+}
+.Tab{
+  padding-left:10px ;
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.T1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: start;
+}
+.T2{
+  justify-self: end;
+  padding-right: 20px;
+  align-self: center;
+}
+
+.check span {
+  padding-left: 10px;
+}
+
+.check{
+  font-weight: 700;
+}
+
+
+.CH{
+  margin: 0px 10px;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr  1fr 2fr;
+  padding: 15px 0px;
+  justify-items: start;
+  font-size: 16px;
+  background-color: #ede7f6;
+}
+
+.CT{
+  margin: 0px 10px;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr  1fr 2fr;
+  padding: 15px 0px;
+  justify-items: start;
+  font-size: 16px;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+.ch1,.ct1{
+  padding-left: 10px;
+}
+
+.ch1 > div{
+  font-weight: 400;
+  font-size: 16px;
+}
+.Status{
+  background-color: #b9f6ca;
+  color: green;
+  padding: 5px 10px;
+  border-radius: 10px;
+  text-align: center;
+  justify-self: center;
+}
+
+.block {
+  padding: 5px 8px;
+  border-radius: 5px;
+  
+}
+
+.ct6 {
+  display: grid;
+  justify-self: stretch;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.ct6 div {
+  justify-self: start;
+}
+
+.page{
+  display: grid;
+  grid-template-columns: 15fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 15px 20px;
+  background-color: #ede7f6;
+  position: absolute;
+  right: 10px;
+  left: 10px;
+  bottom: 20px;
+  max-width: 100%;
+}
+
+.p1{
+  padding-left: 10px;
+}
+
+.p2{
+  justify-self: center;
+}
+
