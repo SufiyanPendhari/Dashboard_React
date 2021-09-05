@@ -16,7 +16,7 @@ function MenuBar() {
     return(
         <div className="left">
           <div className="Main-Tile"> 
-        <Menu path="/" icon={<IoRocket color="darkblue" size="30px" />}title={<span className="Title" >Nexa<span className="Title-2">Weave</span></span>}
+        <Menu path="/" icon={<IoRocket color="darkblue" size="30px" />}title={<span className="Title" >New<span className="Title-2">Company</span></span>}
         onClick={onClick} num="1" color={Num==1?'transparent':'transparent'}/>
           </div>
         <Menu path="/blank" icon={<IoRocket color="darkblue" size="25px" />} title="Get Started" onClick={onClick} num="1" color={Num==1?'orange':'transparent'}/>
